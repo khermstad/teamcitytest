@@ -13,6 +13,6 @@ class AddUtilTest {
     void add2Nums() {
         AddUtil addUtil = new AddUtil();
         System.out.println("TEST WORKS");
-        Assert.assertEquals(5, addUtil.add2Nums(3, 3));
+        Assert.assertEquals(5, addUtil.add2Nums(2, 3));
     }
 }
