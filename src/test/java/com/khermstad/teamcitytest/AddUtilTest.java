@@ -15,4 +15,11 @@ class AddUtilTest {
         System.out.println("TEST WORKS");
         Assert.assertEquals(5, addUtil.add2Nums(2, 3));
     }
+
+    @Test
+    void add4Nums(){
+        AddUtil addUtil = new AddUtil();
+        Assert.assertEquals(8, addUtil.add2Nums(addUtil.add2Nums(2, 2), addUtil.add2Nums(2,2)));
+    }
+
 }
