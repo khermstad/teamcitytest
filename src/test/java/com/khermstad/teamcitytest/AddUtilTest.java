@@ -40,4 +40,11 @@ class AddUtilTest {
         Assert.assertEquals(0, addUtil.add2Nums(-2, 2));
     }
 
+    @Test
+    void addBiggerNums(){
+        AddUtil addUtil = new AddUtil();
+        Assert.assertEquals(1500,addUtil.add2Nums(500, 1000));
+    }
+
+
 }
