@@ -22,4 +22,10 @@ class AddUtilTest {
         Assert.assertEquals(8, addUtil.add2Nums(addUtil.add2Nums(2, 2), addUtil.add2Nums(2,2)));
     }
 
+    @Test
+    void add0s(){
+        AddUtil addUtil = new AddUtil();
+        Assert.assertEquals(0, addUtil.add2Nums(0, 0));
+    }
+
 }
