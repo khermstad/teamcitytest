@@ -34,4 +34,10 @@ class AddUtilTest {
         Assert.assertEquals(-5, addUtil.add2Nums(-3, -2));
     }
 
+    @Test
+    void addPosNegNums(){
+        AddUtil addUtil = new AddUtil();
+        Assert.assertEquals(0, addUtil.add2Nums(-2, 2));
+    }
+
 }
