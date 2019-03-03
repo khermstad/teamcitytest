@@ -10,6 +10,6 @@ public class TestController {
     @GetMapping("/test")
     @ResponseBody
     public String indexRest(){
-        return "HELLO AGAIN!";
+        return "HELLO AGAIN + 2!";
     }
 }
